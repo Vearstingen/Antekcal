@@ -9,6 +9,26 @@ function convert(amount, unit) {
   return amount * (factors[unit] || 1);
 }
 
+async function fetchSuggestionsOnline(query) {
+  const res = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${query}&search_simple=1&action=process&json=1`);
+  const data = await res.json();
+  return data.products.filter(p => p.product_name && p.code);
+}
+
+async function fetchNutritionOnline(code) {
+  const res = await fetch(`https://world.openfoodfacts.org/api/v0/product/${code}.json`);
+  const data = await res.json();
+  if (data.status === 1) {
+    const n = data.product.nutriments;
+    return {
+      name: data.product.product_name,
+      kcal: n['energy-kcal_100g'] || 0,
+      protein: n['proteins_100g'] || 0
+    };
+  }
+  throw new Error("Näringsdata saknas");
+}
+
 function loadProducts() {
   fetch("products.json")
     .then(res => res.json())
@@ -61,22 +81,17 @@ function setupAutocomplete() {
   const box = document.getElementById('suggestions');
   const feedback = document.getElementById('feedback');
 
-  input.addEventListener('input', () => {
+  input.addEventListener('input', async () => {
     const query = input.value.toLowerCase();
     box.innerHTML = '';
     feedback.textContent = '';
     selectedProduct = null;
     if (query.length < 2) return;
 
-    const matches = localProducts.filter(p => p.name.toLowerCase().includes(query));
-    if (matches.length === 0) {
-      feedback.textContent = 'Inga träffar i lokal lista.';
-      return;
-    }
-
-    matches.slice(0, 10).forEach(p => {
+    const localMatches = localProducts.filter(p => p.name.toLowerCase().includes(query));
+    localMatches.slice(0, 10).forEach(p => {
       const div = document.createElement('div');
-      div.textContent = p.name;
+      div.textContent = "(Offline) " + p.name;
       div.onclick = () => {
         input.value = p.name;
         selectedProduct = p;
@@ -85,6 +100,29 @@ function setupAutocomplete() {
       };
       box.appendChild(div);
     });
+
+    try {
+      const onlineMatches = await fetchSuggestionsOnline(query);
+      onlineMatches.slice(0, 10).forEach(p => {
+        const div = document.createElement('div');
+        div.textContent = "(Online) " + p.product_name;
+        div.onclick = async () => {
+          input.value = p.product_name;
+          selectedProduct = await fetchNutritionOnline(p.code);
+          box.innerHTML = '';
+          feedback.textContent = '';
+        };
+        box.appendChild(div);
+      });
+
+      if (localMatches.length === 0 && onlineMatches.length === 0) {
+        feedback.textContent = "Inga produkter hittades.";
+      }
+    } catch {
+      if (localMatches.length === 0) {
+        feedback.textContent = "Kunde inte hämta förslag. Kontrollera nätet.";
+      }
+    }
   });
 }
 
