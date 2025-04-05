@@ -41,12 +41,29 @@ function updateDisplay() {
       totalCalories -= item.kcal;
       totalProtein -= item.protein;
       list.splice(index, 1);
+      saveCurrentDay();
       updateDisplay();
     };
     p.appendChild(btn);
     listDiv.appendChild(p);
   });
   document.getElementById('summary').innerHTML = `<strong>Totalt:</strong> ${totalCalories.toFixed(0)} kcal, ${totalProtein.toFixed(1)} g protein`;
+}
+
+function saveCurrentDay() {
+  localStorage.setItem('currentList', JSON.stringify(list));
+  localStorage.setItem('currentCalories', totalCalories);
+  localStorage.setItem('currentProtein', totalProtein);
+}
+
+function loadCurrentDay() {
+  const savedList = localStorage.getItem('currentList');
+  const savedCalories = localStorage.getItem('currentCalories');
+  const savedProtein = localStorage.getItem('currentProtein');
+  if (savedList) list = JSON.parse(savedList);
+  if (savedCalories) totalCalories = parseFloat(savedCalories);
+  if (savedProtein) totalProtein = parseFloat(savedProtein);
+  updateDisplay();
 }
 
 document.getElementById('food').addEventListener('input', async (e) => {
@@ -85,6 +102,7 @@ document.getElementById('form').addEventListener('submit', (e) => {
 
   totalCalories += kcal;
   totalProtein += protein;
+  saveCurrentDay();
   updateDisplay();
   document.getElementById('form').reset();
   selectedProduct = null;
@@ -95,6 +113,9 @@ document.getElementById('save').addEventListener('click', () => {
   let data = JSON.parse(localStorage.getItem('days') || '{}');
   data[today] = { kcal: totalCalories, protein: totalProtein };
   localStorage.setItem('days', JSON.stringify(data));
+  localStorage.removeItem('currentList');
+  localStorage.removeItem('currentCalories');
+  localStorage.removeItem('currentProtein');
   renderHistory();
 });
 
@@ -102,6 +123,7 @@ document.getElementById('reset').addEventListener('click', () => {
   list = [];
   totalCalories = 0;
   totalProtein = 0;
+  saveCurrentDay();
   updateDisplay();
 });
 
@@ -130,4 +152,5 @@ function renderHistory() {
   week.innerHTML = `Totalt denna vecka: ${wkcal.toFixed(0)} kcal, ${wprot.toFixed(1)} g protein`;
 }
 
+loadCurrentDay();
 renderHistory();
