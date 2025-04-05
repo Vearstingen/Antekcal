@@ -1,1 +1,1 @@
-// Script fixas direkt efter
+// JavaScript fixas i nästa steg

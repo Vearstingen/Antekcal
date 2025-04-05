@@ -3,5 +3,25 @@
     "name": "Håkans potatis",
     "kcal": 77,
     "protein": 2
+  },
+  {
+    "name": "Havregryn",
+    "kcal": 389,
+    "protein": 17
+  },
+  {
+    "name": "Ägg",
+    "kcal": 155,
+    "protein": 13
+  },
+  {
+    "name": "Kycklingfilé",
+    "kcal": 165,
+    "protein": 31
+  },
+  {
+    "name": "Banan",
+    "kcal": 89,
+    "protein": 1.1
   }
 ]

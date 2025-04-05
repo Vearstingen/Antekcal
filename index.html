@@ -2,12 +2,12 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>Kaloriräknare Offline</title>
+  <title>ZipDiet v2.2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Kaloriräknare – Offline-läge</h1>
+  <h1>ZipDiet v2.2</h1>
   <form id="form">
     <input type="number" id="amount" placeholder="Mängd" required>
     <select id="unit">
@@ -16,7 +16,7 @@
       <option value="dl">dl</option>
       <option value="st">styck</option>
     </select>
-    <input type="text" id="food" placeholder="Sök mat (offline)" autocomplete="off" required>
+    <input type="text" id="food" placeholder="Sök mat" autocomplete="off" required>
     <div id="suggestions"></div>
     <div id="feedback"></div>
     <button type="submit">Lägg till</button>
@@ -33,13 +33,13 @@
   <h2>Veckosammanfattning</h2>
   <div id="week"></div>
 
-<h2>Lägg till egen produkt</h2>
-<form id="customForm">
-  <input type="text" id="customName" placeholder="Produktnamn" required>
-  <input type="number" id="customKcal" placeholder="kcal/100g" required>
-  <input type="number" id="customProtein" placeholder="protein/100g" required>
-  <button type="submit">Spara produkt</button>
-</form>
+  <h2>Lägg till egen produkt</h2>
+  <form id="customForm">
+    <input type="text" id="customName" placeholder="Produktnamn" required>
+    <input type="number" id="customKcal" placeholder="kcal/100g" required>
+    <input type="number" id="customProtein" placeholder="protein/100g" required>
+    <button type="submit">Spara produkt</button>
+  </form>
 
   <script src="script.js"></script>
 </body>
