@@ -66,24 +66,31 @@ function loadCurrentDay() {
   updateDisplay();
 }
 
-document.getElementById('food').addEventListener('input', async (e) => {
-  const query = e.target.value;
-  const box = document.getElementById('suggestions');
-  box.innerHTML = '';
-  selectedProduct = null;
-  if (query.length < 2) return;
-  const results = await fetchSuggestions(query);
-  results.forEach(p => {
-    const div = document.createElement('div');
-    div.textContent = p.product_name;
-    div.onclick = async () => {
-      document.getElementById('food').value = p.product_name;
-      selectedProduct = await fetchNutrition(p.code);
-      box.innerHTML = '';
-    };
-    box.appendChild(div);
+function setupAutocomplete() {
+  const foodInput = document.getElementById('food');
+  foodInput.addEventListener('input', async (e) => {
+    const query = e.target.value;
+    const box = document.getElementById('suggestions');
+    box.innerHTML = '';
+    selectedProduct = null;
+    if (query.length < 2) return;
+    try {
+      const results = await fetchSuggestions(query);
+      results.forEach(p => {
+        const div = document.createElement('div');
+        div.textContent = p.product_name;
+        div.onclick = async () => {
+          foodInput.value = p.product_name;
+          selectedProduct = await fetchNutrition(p.code);
+          box.innerHTML = '';
+        };
+        box.appendChild(div);
+      });
+    } catch {
+      // Visa inget men låt manuell inmatning ändå funka
+    }
   });
-});
+}
 
 document.getElementById('form').addEventListener('submit', (e) => {
   e.preventDefault();
@@ -152,5 +159,8 @@ function renderHistory() {
   week.innerHTML = `Totalt denna vecka: ${wkcal.toFixed(0)} kcal, ${wprot.toFixed(1)} g protein`;
 }
 
-loadCurrentDay();
-renderHistory();
+window.addEventListener('DOMContentLoaded', () => {
+  setupAutocomplete();
+  loadCurrentDay();
+  renderHistory();
+});
