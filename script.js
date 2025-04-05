@@ -41,6 +41,7 @@ document.getElementById('food').addEventListener('input', async (e) => {
   const query = e.target.value;
   const box = document.getElementById('suggestions');
   box.innerHTML = '';
+  selectedProduct = null;
   if (query.length < 2) return;
   const results = await fetchSuggestions(query);
   results.forEach(p => {

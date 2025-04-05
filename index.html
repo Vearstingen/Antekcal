@@ -2,12 +2,12 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
+  <title>Kaloriräknare Mobil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kaloriräknare Pizza Edition</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Kaloriräknare + Autocomplete</h1>
+  <h1>Kaloriräknare med Autocomplete</h1>
   <form id="form">
     <input type="number" id="amount" placeholder="Mängd" required>
     <select id="unit">
@@ -16,7 +16,7 @@
       <option value="dl">dl</option>
       <option value="st">styck</option>
     </select>
-    <input type="text" id="food" placeholder="Sök mat (t.ex. pizza)" autocomplete="off" required>
+    <input type="text" id="food" placeholder="Skriv mat (t.ex. potatis)" autocomplete="off" required>
     <div id="suggestions"></div>
     <button type="submit">Lägg till</button>
   </form>
