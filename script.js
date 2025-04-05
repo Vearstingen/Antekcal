@@ -11,7 +11,7 @@ function convert(amount, unit) {
 async function fetchSuggestions(query) {
   const res = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${query}&search_simple=1&action=process&json=1`);
   const data = await res.json();
-  return data.products.slice(0, 10).filter(p => p.product_name && p.code);
+  return data.products.filter(p => p.product_name && p.code);
 }
 
 async function fetchNutrition(code) {
@@ -82,7 +82,7 @@ function setupAutocomplete() {
         feedback.textContent = 'Inga produkter hittades.';
         return;
       }
-      results.forEach(p => {
+      results.slice(0, 10).forEach(p => {
         const div = document.createElement('div');
         div.textContent = p.product_name;
         div.onclick = async () => {
@@ -99,27 +99,39 @@ function setupAutocomplete() {
   });
 }
 
-document.getElementById('form').addEventListener('submit', (e) => {
+document.getElementById('form').addEventListener('submit', async (e) => {
   e.preventDefault();
   const amount = parseFloat(document.getElementById('amount').value);
   const unit = document.getElementById('unit').value;
   const grams = convert(amount, unit);
+  const query = document.getElementById('food').value;
 
-  if (!selectedProduct) {
-    alert("Välj en produkt från listan först!");
-    return;
+  try {
+    if (!selectedProduct && query.length > 1) {
+      const results = await fetchSuggestions(query);
+      if (results.length > 0) {
+        selectedProduct = await fetchNutrition(results[0].code);
+      }
+    }
+
+    if (!selectedProduct) {
+      alert("Kunde inte hitta info om produkten.");
+      return;
+    }
+
+    const kcal = (selectedProduct.calories / 100) * grams;
+    const protein = (selectedProduct.protein / 100) * grams;
+    list.push({ name: selectedProduct.name, kcal, protein });
+
+    totalCalories += kcal;
+    totalProtein += protein;
+    saveCurrentDay();
+    updateDisplay();
+    document.getElementById('form').reset();
+    selectedProduct = null;
+  } catch {
+    alert("Något gick fel – kunde inte lägga till produkten.");
   }
-
-  const kcal = (selectedProduct.calories / 100) * grams;
-  const protein = (selectedProduct.protein / 100) * grams;
-  list.push({ name: selectedProduct.name, kcal, protein });
-
-  totalCalories += kcal;
-  totalProtein += protein;
-  saveCurrentDay();
-  updateDisplay();
-  document.getElementById('form').reset();
-  selectedProduct = null;
 });
 
 document.getElementById('save').addEventListener('click', () => {
