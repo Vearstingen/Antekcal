@@ -44,7 +44,7 @@ li {
   position: absolute;
   background: #333;
   color: #fff;
-  max-height: 150px;
+  max-height: 200px;
   overflow-y: auto;
   width: calc(100% - 40px);
   border: 1px solid #555;

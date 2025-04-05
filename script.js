@@ -1,74 +1,81 @@
-const localDB = {
-  "ägg": { calories: 77, protein: 6 },
-  "havregryn": { calories: 389, protein: 17 },
-  "kvarg": { calories: 60, protein: 10 },
-  "äpple": { calories: 52, protein: 0.3 },
-  "kyckling": { calories: 165, protein: 31 },
-  "banan": { calories: 89, protein: 1.1 },
-  "lasagne": { calories: 135, protein: 7 },
-  "mjölk": { calories: 42, protein: 3.4 }
-};
-
 let list = [];
 let totalCalories = 0;
 let totalProtein = 0;
+let selectedProduct = null;
 
 function convert(amount, unit) {
   const factors = { g: 1, ml: 1, dl: 100, st: 100 };
   return amount * (factors[unit] || 1);
 }
 
-async function getFoodData(food) {
-  if (localDB[food]) return localDB[food];
-  const res = await fetch(`https://world.openfoodfacts.org/api/v0/product/${food}.json`);
-  const data = await res.json();
-  if (data.status === 1 && data.product.nutriments) {
-    return {
-      calories: data.product.nutriments['energy-kcal_100g'] || 0,
-      protein: data.product.nutriments['proteins_100g'] || 0
-    };
-  } else {
-    throw new Error("Hittar inte produkt");
-  }
-}
-
-async function getSuggestions(query) {
+async function fetchSuggestions(query) {
   const res = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${query}&search_simple=1&action=process&json=1`);
   const data = await res.json();
-  return data.products.slice(0, 10).map(p => p.product_name).filter(name => name);
+  return data.products.slice(0, 10).filter(p => p.product_name && p.code);
 }
 
-document.getElementById('form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const amount = parseFloat(document.getElementById('amount').value);
-  const unit = document.getElementById('unit').value;
-  const food = document.getElementById('food').value.toLowerCase().replace(/ /g, "_");
-
-  const grams = convert(amount, unit);
-  try {
-    const data = await getFoodData(food);
-    const kcal = (data.calories / 100) * grams;
-    const protein = (data.protein / 100) * grams;
-    list.push({ food, kcal, protein });
-    totalCalories += kcal;
-    totalProtein += protein;
-    updateDisplay();
-  } catch {
-    alert("Kunde inte hitta info om " + food);
+async function fetchNutrition(code) {
+  const res = await fetch(`https://world.openfoodfacts.org/api/v0/product/${code}.json`);
+  const data = await res.json();
+  if (data.status === 1) {
+    const n = data.product.nutriments;
+    return {
+      name: data.product.product_name,
+      calories: n['energy-kcal_100g'] || 0,
+      protein: n['proteins_100g'] || 0
+    };
   }
-
-  document.getElementById('form').reset();
-  document.getElementById('suggestions').innerHTML = "";
-});
+  throw new Error("Näringsdata saknas");
+}
 
 function updateDisplay() {
   const listDiv = document.getElementById('list');
   listDiv.innerHTML = '';
   list.forEach(item => {
-    listDiv.innerHTML += `<p>${item.food.replace(/_/g, ' ')}: ${item.kcal.toFixed(0)} kcal, ${item.protein.toFixed(1)} g protein</p>`;
+    listDiv.innerHTML += `<p>${item.name}: ${item.kcal.toFixed(0)} kcal, ${item.protein.toFixed(1)} g protein</p>`;
   });
   document.getElementById('summary').innerHTML = `<strong>Totalt:</strong> ${totalCalories.toFixed(0)} kcal, ${totalProtein.toFixed(1)} g protein`;
 }
+
+document.getElementById('food').addEventListener('input', async (e) => {
+  const query = e.target.value;
+  const box = document.getElementById('suggestions');
+  box.innerHTML = '';
+  if (query.length < 2) return;
+  const results = await fetchSuggestions(query);
+  results.forEach(p => {
+    const div = document.createElement('div');
+    div.textContent = p.product_name;
+    div.onclick = async () => {
+      document.getElementById('food').value = p.product_name;
+      selectedProduct = await fetchNutrition(p.code);
+      box.innerHTML = '';
+    };
+    box.appendChild(div);
+  });
+});
+
+document.getElementById('form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const amount = parseFloat(document.getElementById('amount').value);
+  const unit = document.getElementById('unit').value;
+  const grams = convert(amount, unit);
+
+  if (!selectedProduct) {
+    alert("Välj en produkt från listan först!");
+    return;
+  }
+
+  const kcal = (selectedProduct.calories / 100) * grams;
+  const protein = (selectedProduct.protein / 100) * grams;
+  list.push({ name: selectedProduct.name, kcal, protein });
+
+  totalCalories += kcal;
+  totalProtein += protein;
+  updateDisplay();
+  document.getElementById('form').reset();
+  selectedProduct = null;
+});
 
 document.getElementById('save').addEventListener('click', () => {
   const today = new Date().toISOString().split('T')[0];
@@ -109,26 +116,5 @@ function renderHistory() {
   });
   week.innerHTML = `Totalt denna vecka: ${wkcal.toFixed(0)} kcal, ${wprot.toFixed(1)} g protein`;
 }
-
-const foodInput = document.getElementById('food');
-foodInput.addEventListener('input', async () => {
-  const query = foodInput.value;
-  if (query.length < 2) {
-    document.getElementById('suggestions').innerHTML = "";
-    return;
-  }
-  const results = await getSuggestions(query);
-  const box = document.getElementById('suggestions');
-  box.innerHTML = "";
-  results.forEach(item => {
-    const div = document.createElement('div');
-    div.textContent = item;
-    div.onclick = () => {
-      foodInput.value = item;
-      box.innerHTML = "";
-    };
-    box.appendChild(div);
-  });
-});
 
 renderHistory();
