@@ -1,0 +1,102 @@
+[
+  {
+    "name": "potatis",
+    "kcal": 77,
+    "protein": 2
+  },
+  {
+    "name": "ris",
+    "kcal": 130,
+    "protein": 2.7
+  },
+  {
+    "name": "pasta",
+    "kcal": 131,
+    "protein": 5
+  },
+  {
+    "name": "kycklingfilé",
+    "kcal": 165,
+    "protein": 31
+  },
+  {
+    "name": "ägg",
+    "kcal": 155,
+    "protein": 13
+  },
+  {
+    "name": "mjölk",
+    "kcal": 60,
+    "protein": 3.5
+  },
+  {
+    "name": "havregryn",
+    "kcal": 389,
+    "protein": 17
+  },
+  {
+    "name": "kvarg",
+    "kcal": 60,
+    "protein": 10
+  },
+  {
+    "name": "banan",
+    "kcal": 89,
+    "protein": 1.1
+  },
+  {
+    "name": "äpple",
+    "kcal": 52,
+    "protein": 0.3
+  },
+  {
+    "name": "nötter",
+    "kcal": 607,
+    "protein": 20
+  },
+  {
+    "name": "cola",
+    "kcal": 42,
+    "protein": 0
+  },
+  {
+    "name": "bullar",
+    "kcal": 350,
+    "protein": 7
+  },
+  {
+    "name": "chips",
+    "kcal": 536,
+    "protein": 6.6
+  },
+  {
+    "name": "falukorv",
+    "kcal": 270,
+    "protein": 11
+  },
+  {
+    "name": "köttfärs",
+    "kcal": 250,
+    "protein": 19
+  },
+  {
+    "name": "lax",
+    "kcal": 206,
+    "protein": 20
+  },
+  {
+    "name": "juice",
+    "kcal": 45,
+    "protein": 0.5
+  },
+  {
+    "name": "yoghurt",
+    "kcal": 65,
+    "protein": 3.5
+  },
+  {
+    "name": "proteinshake",
+    "kcal": 100,
+    "protein": 20
+  }
+]
