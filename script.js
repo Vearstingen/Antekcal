@@ -31,8 +31,20 @@ async function fetchNutrition(code) {
 function updateDisplay() {
   const listDiv = document.getElementById('list');
   listDiv.innerHTML = '';
-  list.forEach(item => {
-    listDiv.innerHTML += `<p>${item.name}: ${item.kcal.toFixed(0)} kcal, ${item.protein.toFixed(1)} g protein</p>`;
+  list.forEach((item, index) => {
+    const p = document.createElement('p');
+    p.innerHTML = `${item.name}: ${item.kcal.toFixed(0)} kcal, ${item.protein.toFixed(1)} g protein`;
+    const btn = document.createElement('button');
+    btn.className = 'remove-btn';
+    btn.textContent = 'Ta bort';
+    btn.onclick = () => {
+      totalCalories -= item.kcal;
+      totalProtein -= item.protein;
+      list.splice(index, 1);
+      updateDisplay();
+    };
+    p.appendChild(btn);
+    listDiv.appendChild(p);
   });
   document.getElementById('summary').innerHTML = `<strong>Totalt:</strong> ${totalCalories.toFixed(0)} kcal, ${totalProtein.toFixed(1)} g protein`;
 }
