@@ -7,20 +7,25 @@ body {
 h1, h2 {
   color: #00bfa6;
 }
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 input, select, button {
   padding: 10px;
-  margin: 5px;
   border: none;
   border-radius: 5px;
 }
 input, select {
   background: #333;
   color: #fff;
+  flex: 1 1 120px;
 }
 button {
   background: #00bfa6;
   color: #fff;
-  cursor: pointer;
+  flex: 1 1 100px;
 }
 #list p {
   margin: 5px 0;
@@ -41,7 +46,7 @@ li {
   color: #fff;
   max-height: 150px;
   overflow-y: auto;
-  width: 300px;
+  width: calc(100% - 40px);
   border: 1px solid #555;
   border-radius: 5px;
   z-index: 1000;
@@ -52,4 +57,15 @@ li {
 }
 #suggestions div:hover {
   background: #00bfa6;
+}
+@media (max-width: 600px) {
+  input, select, button {
+    flex: 1 1 100%;
+  }
+  h1, h2 {
+    font-size: 1.4em;
+  }
+  body {
+    padding: 10px;
+  }
 }
