@@ -68,14 +68,20 @@ function loadCurrentDay() {
 
 function setupAutocomplete() {
   const foodInput = document.getElementById('food');
+  const feedback = document.getElementById('feedback');
   foodInput.addEventListener('input', async (e) => {
     const query = e.target.value;
     const box = document.getElementById('suggestions');
     box.innerHTML = '';
+    feedback.textContent = '';
     selectedProduct = null;
     if (query.length < 2) return;
     try {
       const results = await fetchSuggestions(query);
+      if (results.length === 0) {
+        feedback.textContent = 'Inga produkter hittades.';
+        return;
+      }
       results.forEach(p => {
         const div = document.createElement('div');
         div.textContent = p.product_name;
@@ -83,11 +89,12 @@ function setupAutocomplete() {
           foodInput.value = p.product_name;
           selectedProduct = await fetchNutrition(p.code);
           box.innerHTML = '';
+          feedback.textContent = '';
         };
         box.appendChild(div);
       });
     } catch {
-      // Visa inget men låt manuell inmatning ändå funka
+      feedback.textContent = 'Kunde inte hämta förslag. Kontrollera nätet.';
     }
   });
 }

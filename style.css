@@ -62,6 +62,11 @@ li {
 #suggestions div:hover {
   background: #00bfa6;
 }
+#feedback {
+  margin-top: 5px;
+  color: #ffb347;
+  font-size: 0.9em;
+}
 .remove-btn {
   margin-left: 10px;
   background: #e74c3c;
