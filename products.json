@@ -6,58 +6,33 @@
     "weightPerUnit": 60
   },
   {
+    "name": "Pasta ost och skinksås",
+    "kcal": 130,
+    "protein": 6.5,
+    "weightPerUnit": 400
+  },
+  {
     "name": "Banan",
     "kcal": 89,
     "protein": 1.1,
     "weightPerUnit": 120
   },
   {
-    "name": "Potatis",
-    "kcal": 77,
-    "protein": 2,
-    "weightPerUnit": 150
-  },
-  {
-    "name": "Äpple",
-    "kcal": 52,
-    "protein": 0.3,
-    "weightPerUnit": 130
-  },
-  {
-    "name": "Keso",
-    "kcal": 97,
-    "protein": 12
-  },
-  {
-    "name": "Kvarg",
-    "kcal": 60,
-    "protein": 11
+    "name": "Kyckling med ris",
+    "kcal": 180,
+    "protein": 20,
+    "weightPerUnit": 450
   },
   {
     "name": "Falukorv",
     "kcal": 270,
-    "protein": 11
+    "protein": 11,
+    "weightPerUnit": 100
   },
   {
-    "name": "Kycklingfilé",
-    "kcal": 165,
-    "protein": 31
-  },
-  {
-    "name": "Lasagne",
-    "kcal": 135,
-    "protein": 8
-  },
-  {
-    "name": "Billys Panpizza",
-    "kcal": 280,
-    "protein": 10,
-    "weightPerUnit": 170
-  },
-  {
-    "name": "Ahlgrens bilar",
-    "kcal": 340,
-    "protein": 4,
+    "name": "Kvarg",
+    "kcal": 60,
+    "protein": 11,
     "weightPerUnit": 100
   }
 ]
