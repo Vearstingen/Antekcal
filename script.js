@@ -1,1 +1,1 @@
-console.log('ZipDiet v2.3.6 loaded');
+console.log('ZipDiet v2.4.0 loaded');
