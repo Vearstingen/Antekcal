@@ -5,6 +5,16 @@
     "protein": 2
   },
   {
+    "name": "Kycklingfilé",
+    "kcal": 165,
+    "protein": 31
+  },
+  {
+    "name": "Banan",
+    "kcal": 89,
+    "protein": 1.1
+  },
+  {
     "name": "Havregryn",
     "kcal": 389,
     "protein": 17
@@ -15,13 +25,93 @@
     "protein": 13
   },
   {
-    "name": "Kycklingfilé",
-    "kcal": 165,
-    "protein": 31
+    "name": "Kvarg",
+    "kcal": 60,
+    "protein": 10
   },
   {
-    "name": "Banan",
-    "kcal": 89,
-    "protein": 1.1
+    "name": "Falukorv",
+    "kcal": 270,
+    "protein": 11
+  },
+  {
+    "name": "Köttfärs",
+    "kcal": 250,
+    "protein": 19
+  },
+  {
+    "name": "Lax",
+    "kcal": 206,
+    "protein": 20
+  },
+  {
+    "name": "Lasagne",
+    "kcal": 135,
+    "protein": 8
+  },
+  {
+    "name": "Billys panpizza",
+    "kcal": 270,
+    "protein": 11
+  },
+  {
+    "name": "Ahlgrens bilar",
+    "kcal": 340,
+    "protein": 3
+  },
+  {
+    "name": "Proteinbar",
+    "kcal": 210,
+    "protein": 20
+  },
+  {
+    "name": "Mjölk",
+    "kcal": 60,
+    "protein": 3.5
+  },
+  {
+    "name": "Yoghurt",
+    "kcal": 65,
+    "protein": 3.5
+  },
+  {
+    "name": "Pasta",
+    "kcal": 131,
+    "protein": 5
+  },
+  {
+    "name": "Ris",
+    "kcal": 130,
+    "protein": 2.7
+  },
+  {
+    "name": "Cola",
+    "kcal": 42,
+    "protein": 0
+  },
+  {
+    "name": "Chips",
+    "kcal": 536,
+    "protein": 6.6
+  },
+  {
+    "name": "Äpple",
+    "kcal": 52,
+    "protein": 0.3
+  },
+  {
+    "name": "Juice",
+    "kcal": 45,
+    "protein": 0.5
+  },
+  {
+    "name": "Nötter",
+    "kcal": 607,
+    "protein": 20
+  },
+  {
+    "name": "Bullar",
+    "kcal": 350,
+    "protein": 7
   }
 ]

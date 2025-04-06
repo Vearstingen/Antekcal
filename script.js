@@ -1,1 +1,1 @@
-// JavaScript fixas i nästa steg
+// JavaScript functionality goes here
