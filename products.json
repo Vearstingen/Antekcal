@@ -6,50 +6,5003 @@
     "weightPerUnit": 60
   },
   {
-    "name": "Banan",
-    "kcal": 89,
-    "protein": 1.1,
-    "weightPerUnit": 120
+    "name": "Produkt 1",
+    "kcal": 101,
+    "protein": 1.5
   },
   {
-    "name": "Kycklingfilé",
-    "kcal": 165,
-    "protein": 31,
-    "weightPerUnit": 140
+    "name": "Produkt 2",
+    "kcal": 102,
+    "protein": 2.0
   },
   {
-    "name": "Kvarg naturell",
-    "kcal": 60,
-    "protein": 11
+    "name": "Produkt 3",
+    "kcal": 103,
+    "protein": 2.5
   },
   {
-    "name": "Ahlgrens bilar",
-    "kcal": 340,
+    "name": "Produkt 4",
+    "kcal": 104,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 5",
+    "kcal": 105,
     "protein": 3.5
   },
   {
-    "name": "Billys Panpizza",
-    "kcal": 280,
-    "protein": 10
+    "name": "Produkt 6",
+    "kcal": 106,
+    "protein": 4.0
   },
   {
-    "name": "Lasagne färdig",
-    "kcal": 135,
-    "protein": 8
+    "name": "Produkt 7",
+    "kcal": 107,
+    "protein": 4.5
   },
   {
-    "name": "Spaghetti med köttfärssås",
+    "name": "Produkt 8",
+    "kcal": 108,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 9",
+    "kcal": 109,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 10",
+    "kcal": 110,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 11",
+    "kcal": 111,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 12",
+    "kcal": 112,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 13",
+    "kcal": 113,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 14",
+    "kcal": 114,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 15",
+    "kcal": 115,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 16",
+    "kcal": 116,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 17",
+    "kcal": 117,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 18",
+    "kcal": 118,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 19",
+    "kcal": 119,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 20",
     "kcal": 120,
-    "protein": 6
+    "protein": 11.0
   },
   {
-    "name": "Pasta ost och skinksås",
+    "name": "Produkt 21",
+    "kcal": 121,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 22",
+    "kcal": 122,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 23",
+    "kcal": 123,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 24",
+    "kcal": 124,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 25",
+    "kcal": 125,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 26",
+    "kcal": 126,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 27",
+    "kcal": 127,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 28",
+    "kcal": 128,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 29",
+    "kcal": 129,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 30",
     "kcal": 130,
-    "protein": 7
+    "protein": 1.0
   },
   {
-    "name": "Yoghurt vanilj",
-    "kcal": 95,
-    "protein": 3.4
+    "name": "Produkt 31",
+    "kcal": 131,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 32",
+    "kcal": 132,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 33",
+    "kcal": 133,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 34",
+    "kcal": 134,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 35",
+    "kcal": 135,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 36",
+    "kcal": 136,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 37",
+    "kcal": 137,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 38",
+    "kcal": 138,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 39",
+    "kcal": 139,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 40",
+    "kcal": 140,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 41",
+    "kcal": 141,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 42",
+    "kcal": 142,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 43",
+    "kcal": 143,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 44",
+    "kcal": 144,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 45",
+    "kcal": 145,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 46",
+    "kcal": 146,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 47",
+    "kcal": 147,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 48",
+    "kcal": 148,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 49",
+    "kcal": 149,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 50",
+    "kcal": 150,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 51",
+    "kcal": 151,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 52",
+    "kcal": 152,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 53",
+    "kcal": 153,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 54",
+    "kcal": 154,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 55",
+    "kcal": 155,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 56",
+    "kcal": 156,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 57",
+    "kcal": 157,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 58",
+    "kcal": 158,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 59",
+    "kcal": 159,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 60",
+    "kcal": 160,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 61",
+    "kcal": 161,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 62",
+    "kcal": 162,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 63",
+    "kcal": 163,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 64",
+    "kcal": 164,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 65",
+    "kcal": 165,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 66",
+    "kcal": 166,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 67",
+    "kcal": 167,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 68",
+    "kcal": 168,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 69",
+    "kcal": 169,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 70",
+    "kcal": 170,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 71",
+    "kcal": 171,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 72",
+    "kcal": 172,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 73",
+    "kcal": 173,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 74",
+    "kcal": 174,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 75",
+    "kcal": 175,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 76",
+    "kcal": 176,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 77",
+    "kcal": 177,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 78",
+    "kcal": 178,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 79",
+    "kcal": 179,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 80",
+    "kcal": 180,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 81",
+    "kcal": 181,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 82",
+    "kcal": 182,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 83",
+    "kcal": 183,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 84",
+    "kcal": 184,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 85",
+    "kcal": 185,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 86",
+    "kcal": 186,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 87",
+    "kcal": 187,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 88",
+    "kcal": 188,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 89",
+    "kcal": 189,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 90",
+    "kcal": 190,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 91",
+    "kcal": 191,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 92",
+    "kcal": 192,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 93",
+    "kcal": 193,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 94",
+    "kcal": 194,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 95",
+    "kcal": 195,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 96",
+    "kcal": 196,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 97",
+    "kcal": 197,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 98",
+    "kcal": 198,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 99",
+    "kcal": 199,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 100",
+    "kcal": 200,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 101",
+    "kcal": 201,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 102",
+    "kcal": 202,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 103",
+    "kcal": 203,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 104",
+    "kcal": 204,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 105",
+    "kcal": 205,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 106",
+    "kcal": 206,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 107",
+    "kcal": 207,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 108",
+    "kcal": 208,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 109",
+    "kcal": 209,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 110",
+    "kcal": 210,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 111",
+    "kcal": 211,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 112",
+    "kcal": 212,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 113",
+    "kcal": 213,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 114",
+    "kcal": 214,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 115",
+    "kcal": 215,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 116",
+    "kcal": 216,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 117",
+    "kcal": 217,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 118",
+    "kcal": 218,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 119",
+    "kcal": 219,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 120",
+    "kcal": 220,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 121",
+    "kcal": 221,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 122",
+    "kcal": 222,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 123",
+    "kcal": 223,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 124",
+    "kcal": 224,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 125",
+    "kcal": 225,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 126",
+    "kcal": 226,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 127",
+    "kcal": 227,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 128",
+    "kcal": 228,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 129",
+    "kcal": 229,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 130",
+    "kcal": 230,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 131",
+    "kcal": 231,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 132",
+    "kcal": 232,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 133",
+    "kcal": 233,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 134",
+    "kcal": 234,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 135",
+    "kcal": 235,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 136",
+    "kcal": 236,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 137",
+    "kcal": 237,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 138",
+    "kcal": 238,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 139",
+    "kcal": 239,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 140",
+    "kcal": 240,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 141",
+    "kcal": 241,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 142",
+    "kcal": 242,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 143",
+    "kcal": 243,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 144",
+    "kcal": 244,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 145",
+    "kcal": 245,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 146",
+    "kcal": 246,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 147",
+    "kcal": 247,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 148",
+    "kcal": 248,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 149",
+    "kcal": 249,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 150",
+    "kcal": 250,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 151",
+    "kcal": 251,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 152",
+    "kcal": 252,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 153",
+    "kcal": 253,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 154",
+    "kcal": 254,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 155",
+    "kcal": 255,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 156",
+    "kcal": 256,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 157",
+    "kcal": 257,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 158",
+    "kcal": 258,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 159",
+    "kcal": 259,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 160",
+    "kcal": 260,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 161",
+    "kcal": 261,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 162",
+    "kcal": 262,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 163",
+    "kcal": 263,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 164",
+    "kcal": 264,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 165",
+    "kcal": 265,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 166",
+    "kcal": 266,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 167",
+    "kcal": 267,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 168",
+    "kcal": 268,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 169",
+    "kcal": 269,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 170",
+    "kcal": 270,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 171",
+    "kcal": 271,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 172",
+    "kcal": 272,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 173",
+    "kcal": 273,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 174",
+    "kcal": 274,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 175",
+    "kcal": 275,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 176",
+    "kcal": 276,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 177",
+    "kcal": 277,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 178",
+    "kcal": 278,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 179",
+    "kcal": 279,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 180",
+    "kcal": 280,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 181",
+    "kcal": 281,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 182",
+    "kcal": 282,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 183",
+    "kcal": 283,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 184",
+    "kcal": 284,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 185",
+    "kcal": 285,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 186",
+    "kcal": 286,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 187",
+    "kcal": 287,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 188",
+    "kcal": 288,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 189",
+    "kcal": 289,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 190",
+    "kcal": 290,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 191",
+    "kcal": 291,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 192",
+    "kcal": 292,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 193",
+    "kcal": 293,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 194",
+    "kcal": 294,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 195",
+    "kcal": 295,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 196",
+    "kcal": 296,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 197",
+    "kcal": 297,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 198",
+    "kcal": 298,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 199",
+    "kcal": 299,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 200",
+    "kcal": 100,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 201",
+    "kcal": 101,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 202",
+    "kcal": 102,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 203",
+    "kcal": 103,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 204",
+    "kcal": 104,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 205",
+    "kcal": 105,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 206",
+    "kcal": 106,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 207",
+    "kcal": 107,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 208",
+    "kcal": 108,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 209",
+    "kcal": 109,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 210",
+    "kcal": 110,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 211",
+    "kcal": 111,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 212",
+    "kcal": 112,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 213",
+    "kcal": 113,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 214",
+    "kcal": 114,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 215",
+    "kcal": 115,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 216",
+    "kcal": 116,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 217",
+    "kcal": 117,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 218",
+    "kcal": 118,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 219",
+    "kcal": 119,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 220",
+    "kcal": 120,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 221",
+    "kcal": 121,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 222",
+    "kcal": 122,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 223",
+    "kcal": 123,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 224",
+    "kcal": 124,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 225",
+    "kcal": 125,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 226",
+    "kcal": 126,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 227",
+    "kcal": 127,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 228",
+    "kcal": 128,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 229",
+    "kcal": 129,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 230",
+    "kcal": 130,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 231",
+    "kcal": 131,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 232",
+    "kcal": 132,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 233",
+    "kcal": 133,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 234",
+    "kcal": 134,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 235",
+    "kcal": 135,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 236",
+    "kcal": 136,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 237",
+    "kcal": 137,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 238",
+    "kcal": 138,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 239",
+    "kcal": 139,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 240",
+    "kcal": 140,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 241",
+    "kcal": 141,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 242",
+    "kcal": 142,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 243",
+    "kcal": 143,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 244",
+    "kcal": 144,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 245",
+    "kcal": 145,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 246",
+    "kcal": 146,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 247",
+    "kcal": 147,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 248",
+    "kcal": 148,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 249",
+    "kcal": 149,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 250",
+    "kcal": 150,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 251",
+    "kcal": 151,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 252",
+    "kcal": 152,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 253",
+    "kcal": 153,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 254",
+    "kcal": 154,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 255",
+    "kcal": 155,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 256",
+    "kcal": 156,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 257",
+    "kcal": 157,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 258",
+    "kcal": 158,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 259",
+    "kcal": 159,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 260",
+    "kcal": 160,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 261",
+    "kcal": 161,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 262",
+    "kcal": 162,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 263",
+    "kcal": 163,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 264",
+    "kcal": 164,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 265",
+    "kcal": 165,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 266",
+    "kcal": 166,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 267",
+    "kcal": 167,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 268",
+    "kcal": 168,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 269",
+    "kcal": 169,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 270",
+    "kcal": 170,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 271",
+    "kcal": 171,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 272",
+    "kcal": 172,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 273",
+    "kcal": 173,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 274",
+    "kcal": 174,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 275",
+    "kcal": 175,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 276",
+    "kcal": 176,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 277",
+    "kcal": 177,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 278",
+    "kcal": 178,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 279",
+    "kcal": 179,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 280",
+    "kcal": 180,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 281",
+    "kcal": 181,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 282",
+    "kcal": 182,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 283",
+    "kcal": 183,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 284",
+    "kcal": 184,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 285",
+    "kcal": 185,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 286",
+    "kcal": 186,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 287",
+    "kcal": 187,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 288",
+    "kcal": 188,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 289",
+    "kcal": 189,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 290",
+    "kcal": 190,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 291",
+    "kcal": 191,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 292",
+    "kcal": 192,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 293",
+    "kcal": 193,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 294",
+    "kcal": 194,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 295",
+    "kcal": 195,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 296",
+    "kcal": 196,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 297",
+    "kcal": 197,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 298",
+    "kcal": 198,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 299",
+    "kcal": 199,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 300",
+    "kcal": 200,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 301",
+    "kcal": 201,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 302",
+    "kcal": 202,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 303",
+    "kcal": 203,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 304",
+    "kcal": 204,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 305",
+    "kcal": 205,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 306",
+    "kcal": 206,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 307",
+    "kcal": 207,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 308",
+    "kcal": 208,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 309",
+    "kcal": 209,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 310",
+    "kcal": 210,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 311",
+    "kcal": 211,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 312",
+    "kcal": 212,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 313",
+    "kcal": 213,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 314",
+    "kcal": 214,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 315",
+    "kcal": 215,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 316",
+    "kcal": 216,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 317",
+    "kcal": 217,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 318",
+    "kcal": 218,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 319",
+    "kcal": 219,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 320",
+    "kcal": 220,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 321",
+    "kcal": 221,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 322",
+    "kcal": 222,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 323",
+    "kcal": 223,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 324",
+    "kcal": 224,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 325",
+    "kcal": 225,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 326",
+    "kcal": 226,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 327",
+    "kcal": 227,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 328",
+    "kcal": 228,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 329",
+    "kcal": 229,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 330",
+    "kcal": 230,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 331",
+    "kcal": 231,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 332",
+    "kcal": 232,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 333",
+    "kcal": 233,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 334",
+    "kcal": 234,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 335",
+    "kcal": 235,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 336",
+    "kcal": 236,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 337",
+    "kcal": 237,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 338",
+    "kcal": 238,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 339",
+    "kcal": 239,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 340",
+    "kcal": 240,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 341",
+    "kcal": 241,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 342",
+    "kcal": 242,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 343",
+    "kcal": 243,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 344",
+    "kcal": 244,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 345",
+    "kcal": 245,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 346",
+    "kcal": 246,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 347",
+    "kcal": 247,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 348",
+    "kcal": 248,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 349",
+    "kcal": 249,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 350",
+    "kcal": 250,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 351",
+    "kcal": 251,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 352",
+    "kcal": 252,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 353",
+    "kcal": 253,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 354",
+    "kcal": 254,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 355",
+    "kcal": 255,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 356",
+    "kcal": 256,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 357",
+    "kcal": 257,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 358",
+    "kcal": 258,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 359",
+    "kcal": 259,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 360",
+    "kcal": 260,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 361",
+    "kcal": 261,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 362",
+    "kcal": 262,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 363",
+    "kcal": 263,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 364",
+    "kcal": 264,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 365",
+    "kcal": 265,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 366",
+    "kcal": 266,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 367",
+    "kcal": 267,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 368",
+    "kcal": 268,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 369",
+    "kcal": 269,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 370",
+    "kcal": 270,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 371",
+    "kcal": 271,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 372",
+    "kcal": 272,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 373",
+    "kcal": 273,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 374",
+    "kcal": 274,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 375",
+    "kcal": 275,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 376",
+    "kcal": 276,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 377",
+    "kcal": 277,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 378",
+    "kcal": 278,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 379",
+    "kcal": 279,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 380",
+    "kcal": 280,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 381",
+    "kcal": 281,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 382",
+    "kcal": 282,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 383",
+    "kcal": 283,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 384",
+    "kcal": 284,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 385",
+    "kcal": 285,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 386",
+    "kcal": 286,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 387",
+    "kcal": 287,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 388",
+    "kcal": 288,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 389",
+    "kcal": 289,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 390",
+    "kcal": 290,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 391",
+    "kcal": 291,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 392",
+    "kcal": 292,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 393",
+    "kcal": 293,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 394",
+    "kcal": 294,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 395",
+    "kcal": 295,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 396",
+    "kcal": 296,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 397",
+    "kcal": 297,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 398",
+    "kcal": 298,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 399",
+    "kcal": 299,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 400",
+    "kcal": 100,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 401",
+    "kcal": 101,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 402",
+    "kcal": 102,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 403",
+    "kcal": 103,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 404",
+    "kcal": 104,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 405",
+    "kcal": 105,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 406",
+    "kcal": 106,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 407",
+    "kcal": 107,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 408",
+    "kcal": 108,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 409",
+    "kcal": 109,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 410",
+    "kcal": 110,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 411",
+    "kcal": 111,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 412",
+    "kcal": 112,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 413",
+    "kcal": 113,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 414",
+    "kcal": 114,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 415",
+    "kcal": 115,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 416",
+    "kcal": 116,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 417",
+    "kcal": 117,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 418",
+    "kcal": 118,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 419",
+    "kcal": 119,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 420",
+    "kcal": 120,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 421",
+    "kcal": 121,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 422",
+    "kcal": 122,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 423",
+    "kcal": 123,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 424",
+    "kcal": 124,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 425",
+    "kcal": 125,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 426",
+    "kcal": 126,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 427",
+    "kcal": 127,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 428",
+    "kcal": 128,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 429",
+    "kcal": 129,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 430",
+    "kcal": 130,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 431",
+    "kcal": 131,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 432",
+    "kcal": 132,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 433",
+    "kcal": 133,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 434",
+    "kcal": 134,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 435",
+    "kcal": 135,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 436",
+    "kcal": 136,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 437",
+    "kcal": 137,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 438",
+    "kcal": 138,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 439",
+    "kcal": 139,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 440",
+    "kcal": 140,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 441",
+    "kcal": 141,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 442",
+    "kcal": 142,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 443",
+    "kcal": 143,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 444",
+    "kcal": 144,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 445",
+    "kcal": 145,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 446",
+    "kcal": 146,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 447",
+    "kcal": 147,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 448",
+    "kcal": 148,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 449",
+    "kcal": 149,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 450",
+    "kcal": 150,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 451",
+    "kcal": 151,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 452",
+    "kcal": 152,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 453",
+    "kcal": 153,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 454",
+    "kcal": 154,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 455",
+    "kcal": 155,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 456",
+    "kcal": 156,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 457",
+    "kcal": 157,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 458",
+    "kcal": 158,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 459",
+    "kcal": 159,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 460",
+    "kcal": 160,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 461",
+    "kcal": 161,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 462",
+    "kcal": 162,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 463",
+    "kcal": 163,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 464",
+    "kcal": 164,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 465",
+    "kcal": 165,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 466",
+    "kcal": 166,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 467",
+    "kcal": 167,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 468",
+    "kcal": 168,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 469",
+    "kcal": 169,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 470",
+    "kcal": 170,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 471",
+    "kcal": 171,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 472",
+    "kcal": 172,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 473",
+    "kcal": 173,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 474",
+    "kcal": 174,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 475",
+    "kcal": 175,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 476",
+    "kcal": 176,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 477",
+    "kcal": 177,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 478",
+    "kcal": 178,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 479",
+    "kcal": 179,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 480",
+    "kcal": 180,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 481",
+    "kcal": 181,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 482",
+    "kcal": 182,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 483",
+    "kcal": 183,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 484",
+    "kcal": 184,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 485",
+    "kcal": 185,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 486",
+    "kcal": 186,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 487",
+    "kcal": 187,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 488",
+    "kcal": 188,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 489",
+    "kcal": 189,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 490",
+    "kcal": 190,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 491",
+    "kcal": 191,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 492",
+    "kcal": 192,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 493",
+    "kcal": 193,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 494",
+    "kcal": 194,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 495",
+    "kcal": 195,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 496",
+    "kcal": 196,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 497",
+    "kcal": 197,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 498",
+    "kcal": 198,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 499",
+    "kcal": 199,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 500",
+    "kcal": 200,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 501",
+    "kcal": 201,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 502",
+    "kcal": 202,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 503",
+    "kcal": 203,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 504",
+    "kcal": 204,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 505",
+    "kcal": 205,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 506",
+    "kcal": 206,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 507",
+    "kcal": 207,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 508",
+    "kcal": 208,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 509",
+    "kcal": 209,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 510",
+    "kcal": 210,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 511",
+    "kcal": 211,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 512",
+    "kcal": 212,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 513",
+    "kcal": 213,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 514",
+    "kcal": 214,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 515",
+    "kcal": 215,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 516",
+    "kcal": 216,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 517",
+    "kcal": 217,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 518",
+    "kcal": 218,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 519",
+    "kcal": 219,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 520",
+    "kcal": 220,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 521",
+    "kcal": 221,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 522",
+    "kcal": 222,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 523",
+    "kcal": 223,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 524",
+    "kcal": 224,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 525",
+    "kcal": 225,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 526",
+    "kcal": 226,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 527",
+    "kcal": 227,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 528",
+    "kcal": 228,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 529",
+    "kcal": 229,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 530",
+    "kcal": 230,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 531",
+    "kcal": 231,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 532",
+    "kcal": 232,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 533",
+    "kcal": 233,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 534",
+    "kcal": 234,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 535",
+    "kcal": 235,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 536",
+    "kcal": 236,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 537",
+    "kcal": 237,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 538",
+    "kcal": 238,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 539",
+    "kcal": 239,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 540",
+    "kcal": 240,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 541",
+    "kcal": 241,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 542",
+    "kcal": 242,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 543",
+    "kcal": 243,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 544",
+    "kcal": 244,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 545",
+    "kcal": 245,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 546",
+    "kcal": 246,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 547",
+    "kcal": 247,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 548",
+    "kcal": 248,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 549",
+    "kcal": 249,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 550",
+    "kcal": 250,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 551",
+    "kcal": 251,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 552",
+    "kcal": 252,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 553",
+    "kcal": 253,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 554",
+    "kcal": 254,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 555",
+    "kcal": 255,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 556",
+    "kcal": 256,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 557",
+    "kcal": 257,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 558",
+    "kcal": 258,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 559",
+    "kcal": 259,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 560",
+    "kcal": 260,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 561",
+    "kcal": 261,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 562",
+    "kcal": 262,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 563",
+    "kcal": 263,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 564",
+    "kcal": 264,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 565",
+    "kcal": 265,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 566",
+    "kcal": 266,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 567",
+    "kcal": 267,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 568",
+    "kcal": 268,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 569",
+    "kcal": 269,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 570",
+    "kcal": 270,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 571",
+    "kcal": 271,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 572",
+    "kcal": 272,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 573",
+    "kcal": 273,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 574",
+    "kcal": 274,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 575",
+    "kcal": 275,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 576",
+    "kcal": 276,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 577",
+    "kcal": 277,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 578",
+    "kcal": 278,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 579",
+    "kcal": 279,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 580",
+    "kcal": 280,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 581",
+    "kcal": 281,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 582",
+    "kcal": 282,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 583",
+    "kcal": 283,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 584",
+    "kcal": 284,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 585",
+    "kcal": 285,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 586",
+    "kcal": 286,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 587",
+    "kcal": 287,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 588",
+    "kcal": 288,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 589",
+    "kcal": 289,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 590",
+    "kcal": 290,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 591",
+    "kcal": 291,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 592",
+    "kcal": 292,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 593",
+    "kcal": 293,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 594",
+    "kcal": 294,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 595",
+    "kcal": 295,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 596",
+    "kcal": 296,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 597",
+    "kcal": 297,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 598",
+    "kcal": 298,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 599",
+    "kcal": 299,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 600",
+    "kcal": 100,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 601",
+    "kcal": 101,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 602",
+    "kcal": 102,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 603",
+    "kcal": 103,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 604",
+    "kcal": 104,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 605",
+    "kcal": 105,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 606",
+    "kcal": 106,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 607",
+    "kcal": 107,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 608",
+    "kcal": 108,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 609",
+    "kcal": 109,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 610",
+    "kcal": 110,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 611",
+    "kcal": 111,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 612",
+    "kcal": 112,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 613",
+    "kcal": 113,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 614",
+    "kcal": 114,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 615",
+    "kcal": 115,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 616",
+    "kcal": 116,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 617",
+    "kcal": 117,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 618",
+    "kcal": 118,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 619",
+    "kcal": 119,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 620",
+    "kcal": 120,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 621",
+    "kcal": 121,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 622",
+    "kcal": 122,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 623",
+    "kcal": 123,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 624",
+    "kcal": 124,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 625",
+    "kcal": 125,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 626",
+    "kcal": 126,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 627",
+    "kcal": 127,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 628",
+    "kcal": 128,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 629",
+    "kcal": 129,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 630",
+    "kcal": 130,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 631",
+    "kcal": 131,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 632",
+    "kcal": 132,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 633",
+    "kcal": 133,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 634",
+    "kcal": 134,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 635",
+    "kcal": 135,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 636",
+    "kcal": 136,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 637",
+    "kcal": 137,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 638",
+    "kcal": 138,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 639",
+    "kcal": 139,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 640",
+    "kcal": 140,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 641",
+    "kcal": 141,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 642",
+    "kcal": 142,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 643",
+    "kcal": 143,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 644",
+    "kcal": 144,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 645",
+    "kcal": 145,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 646",
+    "kcal": 146,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 647",
+    "kcal": 147,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 648",
+    "kcal": 148,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 649",
+    "kcal": 149,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 650",
+    "kcal": 150,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 651",
+    "kcal": 151,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 652",
+    "kcal": 152,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 653",
+    "kcal": 153,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 654",
+    "kcal": 154,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 655",
+    "kcal": 155,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 656",
+    "kcal": 156,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 657",
+    "kcal": 157,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 658",
+    "kcal": 158,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 659",
+    "kcal": 159,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 660",
+    "kcal": 160,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 661",
+    "kcal": 161,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 662",
+    "kcal": 162,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 663",
+    "kcal": 163,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 664",
+    "kcal": 164,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 665",
+    "kcal": 165,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 666",
+    "kcal": 166,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 667",
+    "kcal": 167,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 668",
+    "kcal": 168,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 669",
+    "kcal": 169,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 670",
+    "kcal": 170,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 671",
+    "kcal": 171,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 672",
+    "kcal": 172,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 673",
+    "kcal": 173,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 674",
+    "kcal": 174,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 675",
+    "kcal": 175,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 676",
+    "kcal": 176,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 677",
+    "kcal": 177,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 678",
+    "kcal": 178,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 679",
+    "kcal": 179,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 680",
+    "kcal": 180,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 681",
+    "kcal": 181,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 682",
+    "kcal": 182,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 683",
+    "kcal": 183,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 684",
+    "kcal": 184,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 685",
+    "kcal": 185,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 686",
+    "kcal": 186,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 687",
+    "kcal": 187,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 688",
+    "kcal": 188,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 689",
+    "kcal": 189,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 690",
+    "kcal": 190,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 691",
+    "kcal": 191,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 692",
+    "kcal": 192,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 693",
+    "kcal": 193,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 694",
+    "kcal": 194,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 695",
+    "kcal": 195,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 696",
+    "kcal": 196,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 697",
+    "kcal": 197,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 698",
+    "kcal": 198,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 699",
+    "kcal": 199,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 700",
+    "kcal": 200,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 701",
+    "kcal": 201,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 702",
+    "kcal": 202,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 703",
+    "kcal": 203,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 704",
+    "kcal": 204,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 705",
+    "kcal": 205,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 706",
+    "kcal": 206,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 707",
+    "kcal": 207,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 708",
+    "kcal": 208,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 709",
+    "kcal": 209,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 710",
+    "kcal": 210,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 711",
+    "kcal": 211,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 712",
+    "kcal": 212,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 713",
+    "kcal": 213,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 714",
+    "kcal": 214,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 715",
+    "kcal": 215,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 716",
+    "kcal": 216,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 717",
+    "kcal": 217,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 718",
+    "kcal": 218,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 719",
+    "kcal": 219,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 720",
+    "kcal": 220,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 721",
+    "kcal": 221,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 722",
+    "kcal": 222,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 723",
+    "kcal": 223,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 724",
+    "kcal": 224,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 725",
+    "kcal": 225,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 726",
+    "kcal": 226,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 727",
+    "kcal": 227,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 728",
+    "kcal": 228,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 729",
+    "kcal": 229,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 730",
+    "kcal": 230,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 731",
+    "kcal": 231,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 732",
+    "kcal": 232,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 733",
+    "kcal": 233,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 734",
+    "kcal": 234,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 735",
+    "kcal": 235,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 736",
+    "kcal": 236,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 737",
+    "kcal": 237,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 738",
+    "kcal": 238,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 739",
+    "kcal": 239,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 740",
+    "kcal": 240,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 741",
+    "kcal": 241,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 742",
+    "kcal": 242,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 743",
+    "kcal": 243,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 744",
+    "kcal": 244,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 745",
+    "kcal": 245,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 746",
+    "kcal": 246,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 747",
+    "kcal": 247,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 748",
+    "kcal": 248,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 749",
+    "kcal": 249,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 750",
+    "kcal": 250,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 751",
+    "kcal": 251,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 752",
+    "kcal": 252,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 753",
+    "kcal": 253,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 754",
+    "kcal": 254,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 755",
+    "kcal": 255,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 756",
+    "kcal": 256,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 757",
+    "kcal": 257,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 758",
+    "kcal": 258,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 759",
+    "kcal": 259,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 760",
+    "kcal": 260,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 761",
+    "kcal": 261,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 762",
+    "kcal": 262,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 763",
+    "kcal": 263,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 764",
+    "kcal": 264,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 765",
+    "kcal": 265,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 766",
+    "kcal": 266,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 767",
+    "kcal": 267,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 768",
+    "kcal": 268,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 769",
+    "kcal": 269,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 770",
+    "kcal": 270,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 771",
+    "kcal": 271,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 772",
+    "kcal": 272,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 773",
+    "kcal": 273,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 774",
+    "kcal": 274,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 775",
+    "kcal": 275,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 776",
+    "kcal": 276,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 777",
+    "kcal": 277,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 778",
+    "kcal": 278,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 779",
+    "kcal": 279,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 780",
+    "kcal": 280,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 781",
+    "kcal": 281,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 782",
+    "kcal": 282,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 783",
+    "kcal": 283,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 784",
+    "kcal": 284,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 785",
+    "kcal": 285,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 786",
+    "kcal": 286,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 787",
+    "kcal": 287,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 788",
+    "kcal": 288,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 789",
+    "kcal": 289,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 790",
+    "kcal": 290,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 791",
+    "kcal": 291,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 792",
+    "kcal": 292,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 793",
+    "kcal": 293,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 794",
+    "kcal": 294,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 795",
+    "kcal": 295,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 796",
+    "kcal": 296,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 797",
+    "kcal": 297,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 798",
+    "kcal": 298,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 799",
+    "kcal": 299,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 800",
+    "kcal": 100,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 801",
+    "kcal": 101,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 802",
+    "kcal": 102,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 803",
+    "kcal": 103,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 804",
+    "kcal": 104,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 805",
+    "kcal": 105,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 806",
+    "kcal": 106,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 807",
+    "kcal": 107,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 808",
+    "kcal": 108,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 809",
+    "kcal": 109,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 810",
+    "kcal": 110,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 811",
+    "kcal": 111,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 812",
+    "kcal": 112,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 813",
+    "kcal": 113,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 814",
+    "kcal": 114,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 815",
+    "kcal": 115,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 816",
+    "kcal": 116,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 817",
+    "kcal": 117,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 818",
+    "kcal": 118,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 819",
+    "kcal": 119,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 820",
+    "kcal": 120,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 821",
+    "kcal": 121,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 822",
+    "kcal": 122,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 823",
+    "kcal": 123,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 824",
+    "kcal": 124,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 825",
+    "kcal": 125,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 826",
+    "kcal": 126,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 827",
+    "kcal": 127,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 828",
+    "kcal": 128,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 829",
+    "kcal": 129,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 830",
+    "kcal": 130,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 831",
+    "kcal": 131,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 832",
+    "kcal": 132,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 833",
+    "kcal": 133,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 834",
+    "kcal": 134,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 835",
+    "kcal": 135,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 836",
+    "kcal": 136,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 837",
+    "kcal": 137,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 838",
+    "kcal": 138,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 839",
+    "kcal": 139,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 840",
+    "kcal": 140,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 841",
+    "kcal": 141,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 842",
+    "kcal": 142,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 843",
+    "kcal": 143,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 844",
+    "kcal": 144,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 845",
+    "kcal": 145,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 846",
+    "kcal": 146,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 847",
+    "kcal": 147,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 848",
+    "kcal": 148,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 849",
+    "kcal": 149,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 850",
+    "kcal": 150,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 851",
+    "kcal": 151,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 852",
+    "kcal": 152,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 853",
+    "kcal": 153,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 854",
+    "kcal": 154,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 855",
+    "kcal": 155,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 856",
+    "kcal": 156,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 857",
+    "kcal": 157,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 858",
+    "kcal": 158,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 859",
+    "kcal": 159,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 860",
+    "kcal": 160,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 861",
+    "kcal": 161,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 862",
+    "kcal": 162,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 863",
+    "kcal": 163,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 864",
+    "kcal": 164,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 865",
+    "kcal": 165,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 866",
+    "kcal": 166,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 867",
+    "kcal": 167,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 868",
+    "kcal": 168,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 869",
+    "kcal": 169,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 870",
+    "kcal": 170,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 871",
+    "kcal": 171,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 872",
+    "kcal": 172,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 873",
+    "kcal": 173,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 874",
+    "kcal": 174,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 875",
+    "kcal": 175,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 876",
+    "kcal": 176,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 877",
+    "kcal": 177,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 878",
+    "kcal": 178,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 879",
+    "kcal": 179,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 880",
+    "kcal": 180,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 881",
+    "kcal": 181,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 882",
+    "kcal": 182,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 883",
+    "kcal": 183,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 884",
+    "kcal": 184,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 885",
+    "kcal": 185,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 886",
+    "kcal": 186,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 887",
+    "kcal": 187,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 888",
+    "kcal": 188,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 889",
+    "kcal": 189,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 890",
+    "kcal": 190,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 891",
+    "kcal": 191,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 892",
+    "kcal": 192,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 893",
+    "kcal": 193,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 894",
+    "kcal": 194,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 895",
+    "kcal": 195,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 896",
+    "kcal": 196,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 897",
+    "kcal": 197,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 898",
+    "kcal": 198,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 899",
+    "kcal": 199,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 900",
+    "kcal": 200,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 901",
+    "kcal": 201,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 902",
+    "kcal": 202,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 903",
+    "kcal": 203,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 904",
+    "kcal": 204,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 905",
+    "kcal": 205,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 906",
+    "kcal": 206,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 907",
+    "kcal": 207,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 908",
+    "kcal": 208,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 909",
+    "kcal": 209,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 910",
+    "kcal": 210,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 911",
+    "kcal": 211,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 912",
+    "kcal": 212,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 913",
+    "kcal": 213,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 914",
+    "kcal": 214,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 915",
+    "kcal": 215,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 916",
+    "kcal": 216,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 917",
+    "kcal": 217,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 918",
+    "kcal": 218,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 919",
+    "kcal": 219,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 920",
+    "kcal": 220,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 921",
+    "kcal": 221,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 922",
+    "kcal": 222,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 923",
+    "kcal": 223,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 924",
+    "kcal": 224,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 925",
+    "kcal": 225,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 926",
+    "kcal": 226,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 927",
+    "kcal": 227,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 928",
+    "kcal": 228,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 929",
+    "kcal": 229,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 930",
+    "kcal": 230,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 931",
+    "kcal": 231,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 932",
+    "kcal": 232,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 933",
+    "kcal": 233,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 934",
+    "kcal": 234,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 935",
+    "kcal": 235,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 936",
+    "kcal": 236,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 937",
+    "kcal": 237,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 938",
+    "kcal": 238,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 939",
+    "kcal": 239,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 940",
+    "kcal": 240,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 941",
+    "kcal": 241,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 942",
+    "kcal": 242,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 943",
+    "kcal": 243,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 944",
+    "kcal": 244,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 945",
+    "kcal": 245,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 946",
+    "kcal": 246,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 947",
+    "kcal": 247,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 948",
+    "kcal": 248,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 949",
+    "kcal": 249,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 950",
+    "kcal": 250,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 951",
+    "kcal": 251,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 952",
+    "kcal": 252,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 953",
+    "kcal": 253,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 954",
+    "kcal": 254,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 955",
+    "kcal": 255,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 956",
+    "kcal": 256,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 957",
+    "kcal": 257,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 958",
+    "kcal": 258,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 959",
+    "kcal": 259,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 960",
+    "kcal": 260,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 961",
+    "kcal": 261,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 962",
+    "kcal": 262,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 963",
+    "kcal": 263,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 964",
+    "kcal": 264,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 965",
+    "kcal": 265,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 966",
+    "kcal": 266,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 967",
+    "kcal": 267,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 968",
+    "kcal": 268,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 969",
+    "kcal": 269,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 970",
+    "kcal": 270,
+    "protein": 6.0
+  },
+  {
+    "name": "Produkt 971",
+    "kcal": 271,
+    "protein": 6.5
+  },
+  {
+    "name": "Produkt 972",
+    "kcal": 272,
+    "protein": 7.0
+  },
+  {
+    "name": "Produkt 973",
+    "kcal": 273,
+    "protein": 7.5
+  },
+  {
+    "name": "Produkt 974",
+    "kcal": 274,
+    "protein": 8.0
+  },
+  {
+    "name": "Produkt 975",
+    "kcal": 275,
+    "protein": 8.5
+  },
+  {
+    "name": "Produkt 976",
+    "kcal": 276,
+    "protein": 9.0
+  },
+  {
+    "name": "Produkt 977",
+    "kcal": 277,
+    "protein": 9.5
+  },
+  {
+    "name": "Produkt 978",
+    "kcal": 278,
+    "protein": 10.0
+  },
+  {
+    "name": "Produkt 979",
+    "kcal": 279,
+    "protein": 10.5
+  },
+  {
+    "name": "Produkt 980",
+    "kcal": 280,
+    "protein": 11.0
+  },
+  {
+    "name": "Produkt 981",
+    "kcal": 281,
+    "protein": 11.5
+  },
+  {
+    "name": "Produkt 982",
+    "kcal": 282,
+    "protein": 12.0
+  },
+  {
+    "name": "Produkt 983",
+    "kcal": 283,
+    "protein": 12.5
+  },
+  {
+    "name": "Produkt 984",
+    "kcal": 284,
+    "protein": 13.0
+  },
+  {
+    "name": "Produkt 985",
+    "kcal": 285,
+    "protein": 13.5
+  },
+  {
+    "name": "Produkt 986",
+    "kcal": 286,
+    "protein": 14.0
+  },
+  {
+    "name": "Produkt 987",
+    "kcal": 287,
+    "protein": 14.5
+  },
+  {
+    "name": "Produkt 988",
+    "kcal": 288,
+    "protein": 15.0
+  },
+  {
+    "name": "Produkt 989",
+    "kcal": 289,
+    "protein": 15.5
+  },
+  {
+    "name": "Produkt 990",
+    "kcal": 290,
+    "protein": 1.0
+  },
+  {
+    "name": "Produkt 991",
+    "kcal": 291,
+    "protein": 1.5
+  },
+  {
+    "name": "Produkt 992",
+    "kcal": 292,
+    "protein": 2.0
+  },
+  {
+    "name": "Produkt 993",
+    "kcal": 293,
+    "protein": 2.5
+  },
+  {
+    "name": "Produkt 994",
+    "kcal": 294,
+    "protein": 3.0
+  },
+  {
+    "name": "Produkt 995",
+    "kcal": 295,
+    "protein": 3.5
+  },
+  {
+    "name": "Produkt 996",
+    "kcal": 296,
+    "protein": 4.0
+  },
+  {
+    "name": "Produkt 997",
+    "kcal": 297,
+    "protein": 4.5
+  },
+  {
+    "name": "Produkt 998",
+    "kcal": 298,
+    "protein": 5.0
+  },
+  {
+    "name": "Produkt 999",
+    "kcal": 299,
+    "protein": 5.5
+  },
+  {
+    "name": "Produkt 1000",
+    "kcal": 100,
+    "protein": 6.0
   }
 ]
