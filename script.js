@@ -1,2 +1,2 @@
 
-document.getElementById('app').innerText = 'Appen laddades korrekt med JS!';
+document.getElementById('app').innerText = 'App laddad korrekt. Här kommer funktionaliteten!';
