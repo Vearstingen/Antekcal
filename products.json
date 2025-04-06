@@ -24,15 +24,19 @@
     "weightPerUnit": 130
   },
   {
-    "name": "Bullar",
-    "kcal": 350,
-    "protein": 7,
-    "weightPerUnit": 75
+    "name": "Keso",
+    "kcal": 97,
+    "protein": 12
   },
   {
-    "name": "Köttfärs",
-    "kcal": 250,
-    "protein": 19
+    "name": "Kvarg",
+    "kcal": 60,
+    "protein": 11
+  },
+  {
+    "name": "Falukorv",
+    "kcal": 270,
+    "protein": 11
   },
   {
     "name": "Kycklingfilé",
@@ -45,13 +49,15 @@
     "protein": 8
   },
   {
-    "name": "Yoghurt",
-    "kcal": 65,
-    "protein": 3.5
+    "name": "Billys Panpizza",
+    "kcal": 280,
+    "protein": 10,
+    "weightPerUnit": 170
   },
   {
-    "name": "Falukorv",
-    "kcal": 270,
-    "protein": 11
+    "name": "Ahlgrens bilar",
+    "kcal": 340,
+    "protein": 4,
+    "weightPerUnit": 100
   }
 ]

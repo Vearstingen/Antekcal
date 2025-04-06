@@ -1,92 +1,105 @@
 
 let products = [];
-let customProducts = JSON.parse(localStorage.getItem("customProducts") || "[]");
-let currentList = [];
+let selectedFood = null;
+const amountInput = document.getElementById('amount');
+const unitSelect = document.getElementById('unit');
+const foodInput = document.getElementById('food');
+const suggestionsDiv = document.getElementById('suggestions');
+const listDiv = document.getElementById('list');
+const summaryDiv = document.getElementById('summary');
+const historyList = document.getElementById('history');
+const weekDiv = document.getElementById('week');
+const autoSwitch = document.getElementById('autoSwitch');
 
-async function loadProducts() {
-  const res = await fetch("products.json");
-  const data = await res.json();
-  products = [...data, ...customProducts];
-}
-function updateSuggestions(value) {
-  const matches = products.filter(p => p.name.toLowerCase().startsWith(value.toLowerCase())).slice(0, 10);
-  const container = document.getElementById("suggestions");
-  container.innerHTML = "";
-  matches.forEach(m => {
-    const div = document.createElement("div");
-    div.textContent = m.name;
+fetch('products.json')
+  .then(res => res.json())
+  .then(data => products = data);
+
+function showSuggestions(text) {
+  suggestionsDiv.innerHTML = '';
+  const match = products.filter(p => p.name.toLowerCase().includes(text.toLowerCase()));
+  match.forEach(p => {
+    const div = document.createElement('div');
+    div.textContent = p.name;
     div.onclick = () => {
-      document.getElementById("food").value = m.name;
-      container.innerHTML = "";
+      foodInput.value = p.name;
+      selectedFood = p;
+      suggestionsDiv.innerHTML = '';
+      if (p.weightPerUnit && autoSwitch.checked) {
+        unitSelect.value = 'st';
+      }
     };
-    container.appendChild(div);
+    suggestionsDiv.appendChild(div);
   });
 }
-function updateSummary() {
-  const total = currentList.reduce((acc, item) => {
-    acc.kcal += item.kcal;
-    acc.protein += item.protein;
-    return acc;
-  }, { kcal: 0, protein: 0 });
-  document.getElementById("summary").innerText = `Totalt: ${total.kcal} kcal, ${total.protein} g protein`;
-}
-function renderList() {
-  const list = document.getElementById("list");
-  list.innerHTML = "";
-  currentList.forEach((item, i) => {
-    const div = document.createElement("div");
-    div.textContent = `${item.name}: ${item.kcal} kcal, ${item.protein} g protein`;
-    const btn = document.createElement("button");
-    btn.textContent = "Ta bort";
-    btn.onclick = () => {
-      currentList.splice(i, 1);
-      renderList();
-      updateSummary();
-    };
-    div.appendChild(btn);
-    list.appendChild(div);
-  });
-  updateSummary();
-}
-document.getElementById("food").addEventListener("input", e => {
-  updateSuggestions(e.target.value);
-});
-document.getElementById("form").addEventListener("submit", e => {
+
+foodInput.addEventListener('input', () => showSuggestions(foodInput.value));
+
+document.getElementById('form').addEventListener('submit', e => {
   e.preventDefault();
-  const amount = parseFloat(document.getElementById("amount").value);
-  const unit = document.getElementById("unit").value;
-  const name = document.getElementById("food").value.toLowerCase();
-  const autoSwitch = document.getElementById("autoSwitch").checked;
-  const match = products.find(p => p.name.toLowerCase() === name);
-  if (!match) return alert("Produkt ej hittad.");
-  let weight = amount;
-  if (unit === "g" && match.weightPerUnit && autoSwitch) {
-    weight = amount * match.weightPerUnit;
+  const amount = parseFloat(amountInput.value);
+  const unit = unitSelect.value;
+  const name = foodInput.value;
+  const food = products.find(p => p.name === name) || selectedFood;
+  if (!food) return;
+
+  let grams = amount;
+  if (unit === 'st' && food.weightPerUnit) {
+    grams = amount * food.weightPerUnit;
   }
-  if (unit === "st") {
-    if (!match.weightPerUnit) return alert("Ingen vikt/styck angiven.");
-    weight = amount * match.weightPerUnit;
-  }
-  currentList.push({
-    name: match.name,
-    kcal: Math.round((match.kcal / 100) * weight),
-    protein: +(match.protein / 100 * weight).toFixed(1)
-  });
+  const kcal = grams * food.kcal / 100;
+  const protein = grams * food.protein / 100;
+
+  const entry = { name, kcal, protein };
+  const list = JSON.parse(localStorage.getItem('currentDay') || '[]');
+  list.push(entry);
+  localStorage.setItem('currentDay', JSON.stringify(list));
   renderList();
-  document.getElementById("form").reset();
 });
-document.getElementById("customForm").addEventListener("submit", e => {
-  e.preventDefault();
-  const name = document.getElementById("customName").value;
-  const kcal = parseFloat(document.getElementById("customKcal").value);
-  const protein = parseFloat(document.getElementById("customProtein").value);
-  const weightPerUnit = parseFloat(document.getElementById("customWeight").value) || null;
-  const newProd = { name, kcal, protein };
-  if (weightPerUnit) newProd.weightPerUnit = weightPerUnit;
-  customProducts.push(newProd);
-  localStorage.setItem("customProducts", JSON.stringify(customProducts));
-  products.push(newProd);
-  alert("Produkt sparad!");
-  document.getElementById("customForm").reset();
-});
-loadProducts();
+
+function renderList() {
+  const list = JSON.parse(localStorage.getItem('currentDay') || '[]');
+  listDiv.innerHTML = '';
+  let totalKcal = 0;
+  let totalProtein = 0;
+  list.forEach((item, i) => {
+    totalKcal += item.kcal;
+    totalProtein += item.protein;
+    const div = document.createElement('div');
+    div.textContent = `${item.name}: ${item.kcal.toFixed(1)} kcal, ${item.protein.toFixed(1)} g protein`;
+    listDiv.appendChild(div);
+  });
+  summaryDiv.innerHTML = `<strong>Totalt:</strong> ${totalKcal.toFixed(1)} kcal, ${totalProtein.toFixed(1)} g protein`;
+}
+
+document.getElementById('save').onclick = () => {
+  const list = JSON.parse(localStorage.getItem('currentDay') || '[]');
+  if (!list.length) return;
+  const date = new Date().toISOString().split('T')[0];
+  localStorage.setItem('day_' + date, JSON.stringify(list));
+  localStorage.removeItem('currentDay');
+  renderList();
+  renderHistory();
+};
+
+document.getElementById('reset').onclick = () => {
+  localStorage.removeItem('currentDay');
+  renderList();
+};
+
+function renderHistory() {
+  historyList.innerHTML = '';
+  const keys = Object.keys(localStorage).filter(k => k.startsWith('day_'));
+  keys.forEach(key => {
+    const li = document.createElement('li');
+    li.textContent = key.replace('day_', '');
+    li.onclick = () => {
+      localStorage.setItem('currentDay', localStorage.getItem(key));
+      renderList();
+    };
+    historyList.appendChild(li);
+  });
+}
+
+renderList();
+renderHistory();
