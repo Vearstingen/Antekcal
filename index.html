@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZipDiet v2.4.1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>ZipDiet – Offline-läge</h1>
+    <form id="form">
+      <input type="number" id="amount" placeholder="Mängd" required />
+      <select id="unit">
+        <option value="g">gram</option>
+        <option value="st">styck</option>
+      </select>
+      <input type="text" id="food" placeholder="Sök mat (offline)" autocomplete="off" required />
+      <div id="suggestions"></div>
+      <button type="submit">Lägg till</button>
+    </form>
+
+    <label><input type="checkbox" id="autoSwitch" checked /> Byt automatiskt till styck</label>
+
+    <div id="list"></div>
+    <div id="summary"></div>
+
+    <button id="save">Spara dag</button>
+    <button id="reset">Nollställ dag</button>
+
+    <h2>Tidigare dagar</h2>
+    <ul id="history"></ul>
+
+    <h2>Veckosammanfattning</h2>
+    <div id="week"></div>
+
+    <h2>Lägg till egen produkt</h2>
+    <form id="customForm">
+      <input type="text" id="customName" placeholder="Produktnamn" required />
+      <input type="number" id="customKcal" placeholder="kcal/100g" required />
+      <input type="number" id="customProtein" placeholder="protein/100g" required />
+      <input type="number" id="customWeight" placeholder="vikt/st (valfritt)" />
+      <button type="submit">Spara produkt</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
