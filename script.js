@@ -1,1 +1,1 @@
-console.log('ZipDiet v2.4.0 loaded');
+// JavaScript placeholder
