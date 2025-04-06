@@ -42,12 +42,30 @@ function renderList() {
 document.getElementById("form").addEventListener("submit", e => {
   e.preventDefault();
   const amount = parseFloat(document.getElementById("amount").value);
-  const unit = document.getElementById("unit").value;
+  const unitEl = document.getElementById("unit");
+  let unit = unitEl.value;
   const food = document.getElementById("food").value.toLowerCase();
+  const autoSwitch = document.getElementById("autoSwitch").checked;
+
   const match = products.find(p => p.name.toLowerCase() === food);
   if (!match) {
     alert("Kunde inte hitta produkt.");
     return;
+  }
+
+  // Smart enhetshantering
+  if (unit === "g" && match.weightPerUnit) {
+    if (autoSwitch) {
+      unit = "st";
+      unitEl.value = "st";
+    } else {
+      const confirmSwitch = confirm(`${match.name} har vikt per styck (${match.weightPerUnit}g).
+Vill du använda styck istället?`);
+      if (confirmSwitch) {
+        unit = "st";
+        unitEl.value = "st";
+      }
+    }
   }
 
   let weight = amount;

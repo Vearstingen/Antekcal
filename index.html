@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZipDiet v2.3.4</title>
+  <title>ZipDiet v2.3.5</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,6 +18,11 @@
     <input type="text" id="food" placeholder="Sök mat (offline)" autocomplete="off" required />
     <button id="addBtn" type="submit">Lägg till</button>
   </form>
+
+  <label>
+    <input type="checkbox" id="autoSwitch" checked />
+    Byt automatiskt till “styck” för produkter med vikt/st
+  </label>
 
   <div id="list"></div>
   <div id="summary"></div>
