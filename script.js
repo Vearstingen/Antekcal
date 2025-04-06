@@ -2,7 +2,6 @@
 let products = [];
 let currentList = [];
 let customProducts = JSON.parse(localStorage.getItem("customProducts") || "[]");
-let selectedProduct = null;
 
 async function loadProducts() {
   const res = await fetch("products.json");

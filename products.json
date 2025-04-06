@@ -5,9 +5,14 @@
     "protein": 2
   },
   {
-    "name": "Kycklingfilé",
-    "kcal": 165,
-    "protein": 31
+    "name": "Billys panpizza",
+    "kcal": 270,
+    "protein": 11
+  },
+  {
+    "name": "Ahlgrens bilar",
+    "kcal": 340,
+    "protein": 3
   },
   {
     "name": "Havregryn",
@@ -18,15 +23,5 @@
     "name": "Ägg",
     "kcal": 155,
     "protein": 13
-  },
-  {
-    "name": "Billys panpizza",
-    "kcal": 270,
-    "protein": 11
-  },
-  {
-    "name": "Ahlgrens bilar",
-    "kcal": 340,
-    "protein": 3
   }
 ]
