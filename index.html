@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZipDiet v2.3.2</title>
+  <title>ZipDiet v2.3.3</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,8 +13,6 @@
     <input type="number" id="amount" placeholder="Mängd" required />
     <select id="unit">
       <option value="g">gram</option>
-      <option value="ml">ml</option>
-      <option value="dl">dl</option>
       <option value="st">styck</option>
     </select>
     <input type="text" id="food" placeholder="Sök mat (offline)" autocomplete="off" required />
@@ -37,6 +35,7 @@
     <input type="text" id="customName" placeholder="Produktnamn" required />
     <input type="number" id="customKcal" placeholder="kcal/100g" required />
     <input type="number" id="customProtein" placeholder="protein/100g" required />
+    <input type="number" id="customWeight" placeholder="vikt/st (valfritt)" />
     <button type="submit">Spara produkt</button>
   </form>
 
