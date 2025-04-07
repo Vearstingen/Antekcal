@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lunchsnoken</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, button {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 1rem 0;
+    }
+    button {
+      background: #00aaff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #008fcc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Lunchsnoken</h1>
+    <p>Skriv in vad du har i kylen:</p>
+    <input type="text" id="ingredients" placeholder="t.ex. ägg, ost, paprika" />
+    <button onclick="generateIdeas()">Ge mig lunchförslag</button>
+    <div id="results"></div>
+  </div>
+
+  <script>
+    function generateIdeas() {
+      const input = document.getElementById('ingredients').value.trim();
+      const results = document.getElementById('results');
+      if (!input) return;
+      const baseIdeas = [
+        `Omelett med ${input}`,
+        `Grillad macka med ${input}`,
+        `Pastasallad med ${input}`,
+        `Wok med ${input}`,
+        `Pyttipanna med ${input}`
+      ];
+      results.innerHTML = '<h2>Förslag:</h2><ul>' +
+        baseIdeas.map(idea => `<li>${idea}</li>`).join('') + '</ul>';
+    }
+  </script>
+</body>
+</html>
