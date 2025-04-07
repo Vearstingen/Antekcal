@@ -8,6 +8,7 @@ body {
 .container {
   max-width: 600px;
   margin: auto;
+  text-align: left;
 }
 input, select, button {
   width: 100%;
@@ -24,9 +25,10 @@ button {
 }
 #suggestions {
   background: #222;
-  max-height: 100px;
+  max-height: 200px;
   overflow-y: auto;
   margin-bottom: 1em;
+  font-size: 0.8rem;
 }
 #suggestions div {
   padding: 0.5em;

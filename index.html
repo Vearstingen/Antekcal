@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Antes Kalorintag</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -25,6 +25,8 @@
       <label>Kalorier: <input type="number" id="goalKcal" /></label>
       <label>Protein (g): <input type="number" id="goalProtein" /></label>
       <label>Fett (g): <input type="number" id="goalFat" /></label>
+      <button onclick="saveGoals()">Spara mål</button>
+      <button onclick="clearGoals()">Ta bort mål</button>
     </div>
     <h2>Lägg till egen produkt</h2>
     <form id="custom-form">

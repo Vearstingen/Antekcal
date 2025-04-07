@@ -6,11 +6,13 @@ const customDatabase = {};
 searchInput.addEventListener("input", () => {
   const query = searchInput.value.toLowerCase();
   if (query.length < 2) return suggestions.innerHTML = "";
-  fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${query}&search_simple=1&action=process&json=1&page_size=20`)
+  fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${query}&search_simple=1&action=process&json=1&page_size=50`)
     .then(res => res.json())
     .then(data => {
       suggestions.innerHTML = "";
       data.products.forEach(p => {
+        const lang = p.lang || '';
+        if (lang !== 'sv' && !p.countries_tags?.includes('sv')) return;
         const name = p.product_name || "Okänd";
         if (!p.nutriments) return;
         const kcal = p.nutriments["energy-kcal_100g"] || 0;
@@ -55,3 +57,20 @@ document.getElementById("custom-form").addEventListener("submit", e => {
   customDatabase[name] = { kcal, protein, fat, weight };
   alert(`Produkten ${name} har sparats.`);
 });
+
+function saveGoals() {
+  localStorage.setItem("goalKcal", document.getElementById("goalKcal").value);
+  localStorage.setItem("goalProtein", document.getElementById("goalProtein").value);
+  localStorage.setItem("goalFat", document.getElementById("goalFat").value);
+  alert("Mål sparade!");
+}
+
+function clearGoals() {
+  localStorage.removeItem("goalKcal");
+  localStorage.removeItem("goalProtein");
+  localStorage.removeItem("goalFat");
+  document.getElementById("goalKcal").value = '';
+  document.getElementById("goalProtein").value = '';
+  document.getElementById("goalFat").value = '';
+  alert("Mål borttagna.");
+}
