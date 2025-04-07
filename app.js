@@ -1,1 +1,1 @@
-console.log('ZipDiet v103 loaded');
+console.log('ZipDiet AI loaded');
