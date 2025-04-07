@@ -1,1 +1,40 @@
-<!DOCTYPE html><html><head><title>ZipDiet AI</title><link rel='stylesheet' href='style.css'></head><body><h1>ZipDiet AI</h1><script src='app.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Antes Kalorintag</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Antes Kalorintag</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <input type="number" id="amount" placeholder="Mängd" />
+            <select id="unit">
+                <option value="gram">gram</option>
+                <option value="st">st</option>
+            </select>
+            <input type="text" id="search" placeholder="Sök produkt..." />
+            <div id="suggestions"></div>
+            <button onclick="addProduct()">Lägg till</button>
+        </section>
+        <section class="goals">
+            <h2>Mål</h2>
+            <label>Kalorier: <input type="number" id="goalCalories" /></label>
+            <label>Protein (g): <input type="number" id="goalProtein" /></label>
+            <label>Fett (g): <input type="number" id="goalFat" /></label>
+            <button onclick="saveGoals()">Spara mål</button>
+            <button onclick="clearGoals()">Rensa mål</button>
+        </section>
+        <section class="summary">
+            <h2>Dagens intag</h2>
+            <ul id="intakeList"></ul>
+            <p id="totals"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

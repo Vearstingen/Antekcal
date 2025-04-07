@@ -1,1 +1,42 @@
-body { background: #eaf6ff; color: #222; font-family: sans-serif; padding: 2em; } h1 { color: #0077cc; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+}
+header {
+    background: #222;
+    padding: 1rem;
+    text-align: center;
+}
+.input-section, .goals, .summary {
+    padding: 1rem;
+}
+input, select, button {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+}
+button {
+    background: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#suggestions {
+    background: #333;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+#suggestions div {
+    padding: 0.5rem;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+}
+#suggestions div:hover {
+    background: #444;
+}
