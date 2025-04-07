@@ -1,1 +1,0 @@
-console.log('ZipDiet AI loaded');
